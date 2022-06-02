@@ -1,0 +1,21 @@
+.bgGradient{
+  height: 100vh;
+  background: linear-gradient(
+    to right, #833ab4,
+    #fd1d1d, #fcb045); /* < trocar por preto ultima cor*/
+    background-size: 400% 400%;
+    animation: bgGradient 10s infinite ease-in-out;
+  
+}
+@keyframes bgGradient{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
